@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgCard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lactroi" />
+
+    <LinearLayout
+        android:layout_width="245dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleCard"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Lạc Trôi"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/singerCard"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Sơn Tùng M-TP"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/favCard"
+        android:layout_width="50dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-120dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/tim" />
+
+
+</LinearLayout>
